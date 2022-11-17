@@ -2,6 +2,10 @@
 
 It's just that... Just testing from bezcoder. This project is putting together 2 of the examples of bezcoder site using Spring Boot + JWT Authentication + React with hooks without Redux + MySQL.
 
+Basically the main aim is to work on this flow:
+
+![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/flow.png)
+
 ## Getting Started
 
 For the initial steps give a try to my following video for the basics of Spring:
