@@ -4,7 +4,7 @@ It's just that... Just testing from bezcoder. This project is putting together 2
 
 Basically the main aim is to work on this flow:
 
-![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/flow.png)
+![screenshots](screenshots/flow.png)
 
 ## Getting Started
 
@@ -27,35 +27,35 @@ Open the backend with Eclipse and change the backend/src/main/resources/applicat
 
 In your database you will notice this is the Entity-Relationship Diagram:
 
-![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/MySQLDiagram.png)
+![screenshots](screenshots/MySQLDiagram.png)
 
 In your database table roles add the following data:
 
-![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/roles.png)
+![screenshots](screenshots/roles.png)
 
 Now you can start your backend project.
 
 And after that create with POSTMAN your first user:
 
-![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/signup.png)
+![screenshots](screenshots/signup.png)
 
 The result in the tables of the database is the following:
 
-![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/TableUsersAfterSignUp.png)
+![screenshots](screenshots/TableUsersAfterSignUp.png)
 
-![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/TableUsersRolesAfterSignUp.png)
+![screenshots](screenshots/TableUsersRolesAfterSignUp.png)
 
 Now you can login with the created user using POSTMAN:
 
-![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/login.png)
+![screenshots](screenshots/login.png)
 
 With the token obtained after login you can test you can access with your user role (ROLE_USER):
 
-![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/userAccessContentWithToken.png)
+![screenshots](screenshots/userAccessContentWithToken.png)
 
 And also is interesting to test that the user cannot access an end-point which needs other Role to access:
 
-![screenshots](https://github.com/tcrurav/SpringReactHooksJWTAuthMySQL/blob/master/screenshots/userCannotAccessModeratorContentWithHisUserToken.png)
+![screenshots](screenshots/userCannotAccessModeratorContentWithHisUserToken.png)
 
 There are a lot of more tests you can accomplish like creating a user with other role and test what he/she can access and not.
 
